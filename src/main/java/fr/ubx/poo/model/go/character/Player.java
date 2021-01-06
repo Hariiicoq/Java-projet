@@ -94,8 +94,6 @@ public class Player extends GameObject implements Movable {
             world.setHasChanged(true);
             world.set(pos, new Bomb());
         }
-        
-
     }
 
     @Override
